@@ -32,7 +32,8 @@ class Calculator(QWidget):
         
     def activateMessage(self):
         # QMessageBox.information(self, "information", "Button clicked!")
-        self.te1.appendPlainText("Button clicked!")
+        # self.te1.appendPlainText("Button clicked!")
+        self.te1.appendPlainText("Test for Echo")
         
         
 if __name__ == '__main__':
