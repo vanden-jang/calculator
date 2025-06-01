@@ -32,7 +32,7 @@ class Calculator(QWidget):
         
     def activateMessage(self):
         # QMessageBox.information(self, "information", "Button clicked!")
-        self.te1.appendPlainText("Button clicked!")       # 주석 추가 test
+        self.te1.appendPlainText("Button clicked!")
         
         
 if __name__ == '__main__':
